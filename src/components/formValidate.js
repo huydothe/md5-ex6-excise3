@@ -82,7 +82,7 @@ function FormValidate() {
 
     const handleLogout = () => {
         setState({...state,isLoggedIn: false})
-    }
+    }//git
 
     const handleChange = e => {
         setState({...state, [e.target.name]:e.target.value});
